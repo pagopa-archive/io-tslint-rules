@@ -6,13 +6,10 @@
     "noImplicitAny": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "sourceMap": true,
-    "declaration": true,
-    "outDir": "rules"
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src/*.ts"
+    "rules/*.ts"
   ],
   "exclude": [
     "node_modules"

@@ -2,7 +2,7 @@
   "name": "italia-tslint-rules",
   "version": "0.0.1",
   "description": "Custom tslint rules for the Digital Citizenship project",
-  "main": "italia-tslint-rules.json",
+  "main": "rules/index.js",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
   "license": "MIT",
   "keywords": [
@@ -20,7 +20,6 @@
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc -p .",
-    "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags && rm -rf rules"
+    "postversion": "git push && git push --tags"
   }
 }
