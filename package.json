@@ -1,6 +1,6 @@
 {
   "name": "italia-tslint-rules",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Custom tslint rules for the Digital Citizenship project",
   "main": "rules/index.js",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
