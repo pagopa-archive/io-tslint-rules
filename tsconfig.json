@@ -1,12 +1,18 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es6",
+    "target": "es5",
+    "removeComments": true,
+    "inlineSourceMap": true,
     "strict": true,
     "noImplicitAny": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "stripInternal": true,
+    "lib": ["es6"],
+    "skipLibCheck": true,
+    "importHelpers": true
   },
   "include": [
     "rules/*.ts"

@@ -13,13 +13,19 @@
   ],
   "devDependencies": {
     "@types/node": "^10.3.4",
+    "rimraf": "^2.6.2",
     "tslint": "^5.10.0",
     "tsutils": "^2.27.1",
     "typescript": "^2.9.2"
   },
   "scripts": {
     "prepublish": "npm run build",
+    "precompile": "rimraf 'rules/*.js'",
     "build": "tsc -p .",
     "postversion": "git push && git push --tags"
+  },
+  "peerDependencies": {
+    "tslint": "^5.0.0",
+    "typescript": ">=2.1.4 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev"
   }
 }
