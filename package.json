@@ -29,6 +29,11 @@
     "typescript": ">=2.1.4 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev"
   },
   "dependencies": {
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-immutable": "^5.5.2",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0",
+    "tslint-sonarts": "^1.9.0",
     "typestrict": "^1.0.2"
   }
 }
