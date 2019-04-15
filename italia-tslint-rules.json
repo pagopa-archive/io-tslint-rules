@@ -1,7 +1,0 @@
-{
-  "rulesDirectory": "./rules",
-  "rules": {
-    "saga-yield-return-type": false,
-    "no-tslint-disable-all": false
-  }
-}

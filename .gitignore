@@ -1,3 +1,3 @@
 node_modules
-rules/*.js
 yarn-error.log
+dist

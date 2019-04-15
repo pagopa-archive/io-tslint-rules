@@ -1,41 +1,35 @@
 {
   "extends": [
-    "./tslint-base.json",
-    "tslint:recommended",
-    "tslint-eslint-rules",
-    "typestrict",
-    "tslint-react",
-    "tslint-sonarts",
-    "tslint-immutable",
-    "tslint-plugin-prettier",
-    "tslint-config-prettier"
+    "./basic.json"
   ],
   "rules": {
-    // custom rules
-    "prettier": true,
-    "saga-yield-return-type": true,
-    "no-tslint-disable-all": true,
+    // re-enable what's disabled in basic.json
+    "interface-name": true,
+    "no-empty-interface": true,
+    "object-literal-sort-keys": true,
+    "interface-over-type-literal": true,
+    "no-var-requires": true,
+    "no-duplicate-string": true,
+    "no-small-switch": true,
+    "no-useless-intersection": true,
+    "no-submodule-imports": true,
+    "jsx-no-lambda": true,
+    "member-ordering": true,
 
     // Disallows use of the null keyword literal.
     // "no-null-keyword": true,
     // Disallows usages of any as a type declaration.
     "no-any": true,
 
-    // tslint-immutable: Recommended built-in rules
-    "no-var-keyword": true,
-    "typedef": [true, "call-signature"],
+    // tslint-immutable
+    "typedef": [true, "call-signature"]
 
     // tslint-immutable: Immutability rules
     // "readonly-keyword": true,
-    "readonly-array": true,
-    "no-let": true,
-    "no-object-mutation": true,
-    "no-method-signature": true,
 
     // tslint-immutable: Functional style rules
     // "no-this": true,
     // "no-class": true,
     // "no-mixed-interface": false,
-    "no-import-side-effect": true
   }
 }
