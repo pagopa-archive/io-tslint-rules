@@ -1,6 +1,6 @@
 {
   "name": "italia-tslint-rules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom tslint rules for the IO project",
   "main": "tslint.json",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
