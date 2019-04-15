@@ -1,6 +1,6 @@
 {
   "name": "italia-tslint-rules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom tslint rules for the IO project",
   "main": "tslint.json",
   "files": [
