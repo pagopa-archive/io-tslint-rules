@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "Custom tslint rules for the IO project",
   "main": "tslint.json",
+  "files": [
+    "dist",
+    "*.json"
+  ],
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
   "license": "MIT",
   "keywords": [
@@ -20,7 +24,7 @@
   },
   "scripts": {
     "prepublish": "npm run build",
-    "precompile": "rimraf 'rules/*.js'",
+    "precompile": "rimraf dist",
     "build": "tsc -p .",
     "postversion": "git push && git push --tags"
   },

@@ -3,7 +3,6 @@
     "module": "commonjs",
     "target": "es5",
     "removeComments": true,
-    "inlineSourceMap": true,
     "strict": true,
     "noImplicitAny": true,
     "noUnusedParameters": true,
@@ -12,10 +11,12 @@
     "stripInternal": true,
     "lib": ["es6"],
     "skipLibCheck": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "sourceMap": true,
+    "outDir": "dist"
   },
   "include": [
-    "rules/*.ts"
+    "rules"
   ],
   "exclude": [
     "node_modules"
