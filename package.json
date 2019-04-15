@@ -1,8 +1,8 @@
 {
   "name": "italia-tslint-rules",
   "version": "0.1.1",
-  "description": "Custom tslint rules for the Digital Citizenship project",
-  "main": "rules/index.js",
+  "description": "Custom tslint rules for the IO project",
+  "main": "tslint.json",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
   "license": "MIT",
   "keywords": [
@@ -14,9 +14,9 @@
   "devDependencies": {
     "@types/node": "^10.3.4",
     "rimraf": "^2.6.2",
-    "tslint": "^5.10.0",
+    "tslint": "^5.15.0",
     "tsutils": "^2.27.1",
-    "typescript": "^2.9.2"
+    "typescript": "^3.4.3"
   },
   "scripts": {
     "prepublish": "npm run build",
@@ -27,5 +27,8 @@
   "peerDependencies": {
     "tslint": "^5.0.0",
     "typescript": ">=2.1.4 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev"
+  },
+  "dependencies": {
+    "typestrict": "^1.0.2"
   }
 }
