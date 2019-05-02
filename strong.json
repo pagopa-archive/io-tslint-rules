@@ -13,7 +13,6 @@
     "no-small-switch": true,
     "no-useless-intersection": true,
     "no-submodule-imports": true,
-    "jsx-no-lambda": true,
     "member-ordering": true,
 
     // Disallows use of the null keyword literal.
