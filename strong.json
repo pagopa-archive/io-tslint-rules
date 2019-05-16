@@ -12,7 +12,7 @@
     "no-duplicate-string": true,
     "no-small-switch": true,
     "no-useless-intersection": true,
-    "member-ordering": true,
+    "member-ordering": [true, {"order": "fields-first"}],
     "no-parameter-reassignment": true,
 
     // allow sub-module imports from most used modules
