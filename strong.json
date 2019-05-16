@@ -12,8 +12,11 @@
     "no-duplicate-string": true,
     "no-small-switch": true,
     "no-useless-intersection": true,
-    "no-submodule-imports": true,
     "member-ordering": true,
+    "no-parameter-reassignment": true,
+
+    // allow sub-module imports from most used modules
+    "no-submodule-imports": [true, "fp-ts", "io-ts", "italia-ts-commons"],
 
     // Disallows use of the null keyword literal.
     // "no-null-keyword": true,
@@ -21,7 +24,8 @@
     "no-any": true,
 
     // tslint-immutable
-    "typedef": [true, "call-signature"]
+    "typedef": [true, "call-signature"],
+    "no-delete": true
 
     // tslint-immutable: Immutability rules
     // "readonly-keyword": true,
