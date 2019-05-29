@@ -16,7 +16,7 @@
     "digital-citizenship"
   ],
   "devDependencies": {
-    "@types/node": "^10.3.4",
+    "@types/node": "^12.0.3",
     "rimraf": "^2.6.2",
     "tslint": "^5.15.0",
     "tsutils": "^2.27.1",
